@@ -6,7 +6,7 @@ hydrate: move
 	geckodriver &
 	cargo run
 
-move: clean wget-ids wget-work
+move: clean wget-ids
 	mv www.ivoclar.com page
 
 clean:
